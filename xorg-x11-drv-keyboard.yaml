@@ -1,6 +1,6 @@
 Name: xorg-x11-drv-keyboard
 Summary: Xorg X11 keyboard input driver
-Version: 1.6.0
+Version: 1.6.2
 Release: 1
 Group: Graphics/X11
 License: MIT
@@ -13,9 +13,7 @@ Requires:
     - xorg-x11-server-Xorg
     - xkeyboard-config
 PkgConfigBR:
-    - xorg-server
+    - xorg-macros >= 1.8
+    - xorg-server >= 1.4
     - xproto
-    - randrproto
     - inputproto
-    - kbproto
-    - xextproto
